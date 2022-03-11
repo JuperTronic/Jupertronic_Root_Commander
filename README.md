@@ -1,0 +1,2 @@
+# Root_Commander
+Root Commander is an Arduino MIDI controller that sends single notes. The scale or mode, key, and octave are selected with potentiometers. Then the note or step in the scale is sent when you press any of 7 normally open, momentary buttons. There is an OLED display to show the scale, key, octave, and step (shown in Roman Numerals). This code is set up for an Arduino Pro Micro. The SDA and SCL pins used for OLED are different on different Arduino boards, so you may need to adjust your pins in the code.
