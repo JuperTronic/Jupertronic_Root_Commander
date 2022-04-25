@@ -1,5 +1,5 @@
 /*   Root Commander - Jupertronic MIDI Note Commander
-      by Janis Wilson Hughes aka Jupertronic aka vitalWho aka J Dub
+      by Janis Wilson Hughes aka Jupertronic aka vitalWho aka J Dub aka Evolution Stoneware on Youtube
       MIDI output to control root note of arpeggiator box or synth box
       Control of scale mode
       Control of octave
@@ -101,7 +101,7 @@ int octaveSelect;
 char scaleName;
 char keyName;
 char octaveName;
-char *stepName[7] = {"   I    ", "  II   ", " III", "  iV  ", "   V   ", "  VI  ", " VII "};
+char *stepName[7] = {"   I    ", "  II   ", " III", "  IV  ", "   V   ", "  VI  ", " VII "};
 
 
 void setup() {
