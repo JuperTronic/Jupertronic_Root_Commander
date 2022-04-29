@@ -17,7 +17,7 @@ MIDI.h and ss_oled libraries are required. You will need to download them if you
 
 The Root Commander code uses a lot of memory due to storing the strings for the OLED display. There may be a better way to do this, but it functions perfectly as is. If you make adjustments to improve memory usage, let me know. 
 
-## Notes on MIDI and 5 Pin DIN Sockets
+## MIDI and 5 Pin DIN Socket Info
 Please see the schematic I posted and also look at the MIDI diagram I posted so that you don't flip which pins to use on the MIDI socket when you're soldering this up. This is looking at the back of the socket where the lugs come out. 
 
 ![MIDI](https://github.com/JuperTronic/Jupertronic_Root_Commander/blob/main/midi_hardware.jpg)
