@@ -2,10 +2,10 @@
 Root Commander is a smart Arduino MIDI controller that sends single note commands when a button is pressed. The scale or 'mode', key, and octave are selected with 3 potentiometers. Then the note or 'step' in that scale is sent out via MIDI when you press any of 7 normally open, momentary buttons. Every note you play will always be in tune with the scale you selected because Root Commander sets the proper notes for you on the 7 step buttons. There are only 7 instead of 8 becuase the 8th note of a scale is the same as the first note but 1 octave higher. You can play that note by shifting the octave pot up one octave and playing button 1. An OLED display is used to show the scale, key, octave, and step (shown in Roman Numerals) you've selected. 
 
 ## How to Use Root Commander
-- Use a 5 pin MIDI cord to connect Root Commander to a sound generating instrument such as a synth or computer DAW.
+- Use a 5 pin MIDI cable to connect Root Commander to a sound generating instrument such as a synth or computer DAW.
 - On Root Commander select the scale or mode you want to play in with the scale pot. Included scales are Major, Minor, Dorian, and Mixolydian.
-- Then select the key you want to play in with the key pot. Starting from all the way counter clockwise, the note selection goes from A2 up to Ab3 at full clockwise.
-- Then select the octave of the note you want to play with the octave pot. There is a 4 octave range from -2 to octaves up to +1 ocatve.
+- Then select the key you want to play in with the key pot. Starting from all the way counter clockwise, the note selection goes from A2 chromatically up to Ab3 at full clockwise.
+- Then select the octave of the note you want to play with the octave pot. There is a 4 octave range from -2 octaves up to +1 ocatve.
 - From here use any of the 7 buttons to select the note you want to play in that scale.
 - Typically you'll set the scale and key and leave them alone. Then play using the buttons and the octave pot. 
 
