@@ -23,3 +23,14 @@ Please see the schematic I posted and also look at the MIDI diagram I posted so 
 ![MIDI](https://github.com/JuperTronic/Jupertronic_Root_Commander/blob/main/midi_hardware.jpg)
 
 I have some code commented out that you can use to send MIDI note off commands. I have this set up to play nicely with my Skeeter sequence synth, but you may want to add the note off commands. You can do this by sending a note on command with a 0 velocity. Some instruments prefer that and will not respond to note off commands. So just use note on commands with 0 velocity to be safe.
+
+## Disclaimer
+I'm not a coding expert of schematic wizard. But I hope this helps!
+
+## Sharing
+Feel free to use this code or build your own Root Commander with attribution reference back to this original project.
+
+## Gratitude
+Sending out big thanks to the maker community out there helping and teaching fellow makers. 
+Wishing wellness and wellbeing to all!
+- Janis (aka JuperTronic, aka J Dub, aka Evolution Stoneware on youtube) 
