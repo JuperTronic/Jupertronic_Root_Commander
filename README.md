@@ -24,11 +24,13 @@ Please see the schematic I posted and also look at the MIDI diagram I posted so 
 
 I have some code commented out that you can use to send MIDI note off commands. I have this set up to play nicely with my Skeeter sequence synth, but you may want to add the note off commands. You can do this by sending a note on command with a 0 velocity. Some instruments prefer that and will not respond to note off commands. So just use note on commands with 0 velocity to be safe.
 
+Pro Micro boards support native USB MIDI, so you can plug them into your computer via the onboard USB and read MIDI commands from the Root Commander that way instead of the 5 pin MIDI socket. Cool, huh? If you want to use your Root Commander that way, replace the MIDI.h library with the usbMIDI.h library and change the MIDI commands to the syntax used in the usbMIDI.h library. 
+
 ## Disclaimer
-I'm not a coding expert of schematic wizard. But I hope this helps!
+I'm not a coding expert or schematic creation wizard. But I hope this helps!
 
 ## Sharing
-Feel free to use this code or build your own Root Commander with attribution reference back to this original project.
+I invite you to use this code or build your own Root Commander with attribution reference back to this original project.
 
 ## Gratitude
 Sending out big thanks to the maker community out there helping and teaching fellow makers. 
