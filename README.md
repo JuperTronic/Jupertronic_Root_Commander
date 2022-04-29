@@ -6,7 +6,8 @@ Root Commander is a smart Arduino MIDI controller that sends single note command
 - On Root Commander select the scale or mode you want to play in with the scale pot. Included scales are Major, Minor, Dorian, and Mixolydian.
 - Then select the key you want to play in with the key pot. Starting from all the way counter clockwise, the note selection goes from A2 up to Ab3 at full clockwise.
 - Then select the octave of the note you want to play with the octave pot. There is a 4 octave range from -2 to octaves up to +1 ocatve.
-- From here use any of the 7 buttons to select the note you want to play in that scale. 
+- From here use any of the 7 buttons to select the note you want to play in that scale.
+- Typically you'll set the scale and key and leave them alone. Then play using the buttons and the octave pot. 
 
 ## Board Info
 This code is set up for an Arduino Pro Micro. The SDA and SCL pins used for I2C OLED are different on different Arduino boards, so you will need to adjust your pins in the code and the wiring if you use an Arduino Nano. On Nano SDA = A4, SCL = A5.
