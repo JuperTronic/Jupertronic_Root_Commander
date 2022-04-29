@@ -18,6 +18,7 @@ The Root Commander code uses a lot of memory due to storing the strings for the 
 
 ## Notes on MIDI and 5 Pin DIN Sockets
 Please see the schematic I posted and also look at the MIDI diagram I posted so that you don't flip which pins to use on the MIDI socket when you're soldering this up. 
+
 ![MIDI](https://github.com/JuperTronic/Jupertronic_Root_Commander/blob/main/midi_hardware.jpg)
 
 I have some code commented out that you can use to send MIDI note off commands. I have this set up to play nicely with my Skeeter sequence synth, but you may want to add the note off commands. You can do this by sending a note on command with a 0 velocity. Some instruments prefer that and will not respond to note off commands. So just use note on commands with 0 velocity to be safe.
