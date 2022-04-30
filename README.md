@@ -10,7 +10,7 @@ Root Commander is a smart Arduino MIDI controller that sends single note command
 - Typically you'll set the scale and key and leave them alone. Then play using the buttons and the octave pot. 
 
 ## Board Info
-This code is set up for an Arduino Pro Micro. The SDA and SCL pins used for I2C OLED are different on different Arduino boards, so you will need to adjust your pins in the code and the wiring if you use an Arduino Nano. On Nano SDA = A4, SCL = A5.
+_This code is set up for an Arduino Pro Micro._ The SDA and SCL pins used for I2C OLED are different on different Arduino boards, so you will need to adjust your pins in the code and the wiring if you use an Arduino Nano. On Nano SDA = A4, SCL = A5. Make these adjustments in your wiring and on lines 29 - 30 in the code.
 
 ## Code Info
 MIDI.h and ss_oled libraries are required. You will need to download them if you don't already have them. Be sure they're stored in your Arduino Libraries folder.
@@ -24,7 +24,7 @@ Please see the schematic I posted and also look at the MIDI diagram I posted so 
 
 I have some code commented out that you can use to send MIDI note off commands. I have this set up to play nicely with my Skeeter sequence synth, but you may want to add the note off commands. You can do this by sending a note on command with a 0 velocity. Some instruments prefer that and will not respond to note off commands. So just use note on commands with 0 velocity to be safe.
 
-Pro Micro boards support native USB MIDI, so you can plug them into your computer via the onboard USB and read MIDI commands from the Root Commander that way instead of the 5 pin MIDI socket. Cool, huh? If you want to use your Root Commander that way, replace the MIDI.h library with the usbMIDI.h library and change the MIDI commands to the syntax used in the usbMIDI.h library. 
+Pro Micro boards support native USB MIDI, so you can plug this build into your computer via the onboard USB and send MIDI commands from the Root Commander that way instead of the 5 pin MIDI socket. Cool, huh? If you want to use your Root Commander that way, replace the MIDI.h library with the usbMIDI.h library and change the MIDI commands to the appropriate command syntax used in the usbMIDI.h library. 
 
 ## Disclaimer
 I'm not a coding expert or schematic creation wizard. But I hope this helps!
