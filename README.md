@@ -1,5 +1,6 @@
 # JuperTronic Root Commander
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vF-8TOUuaHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Video Demo:
 https://www.youtube.com/watch?v=vF-8TOUuaHY
 
 Root Commander is a smart Arduino MIDI controller that sends single note commands when a button is pressed. The scale or 'mode', key, and octave are selected with 3 potentiometers. Then the note or 'step' in that scale is sent out via MIDI when you press any of 7 normally open, momentary buttons. Every note you play will always be in tune with the scale you selected because Root Commander sets the proper notes for you on the 7 step buttons. There are only 7 instead of 8 becuase the 8th note of a scale is the same as the first note but 1 octave higher. You can play that note by shifting the octave pot up one octave and playing button 1. An OLED display is used to show the scale, key, octave, and step (shown in Roman Numerals) you've selected. 
