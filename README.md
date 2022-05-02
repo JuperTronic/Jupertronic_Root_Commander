@@ -45,7 +45,7 @@ Arduino Pro Micro https://amzn.to/3LAxXmj
 Pro Micro 6V power supply https://amzn.to/3y6I6n4
 Arduino Nanos https://amzn.to/36Gc3iu
 Red Buttons https://amzn.to/3FaXtwg
-Knobs with scales  https://amzn.to/3FaXtwg
+Knobs with scales  https://amzn.to/3LEKTYp
 MIDI to USB cable https://amzn.to/3kuf6gN
 MIDI to MIDI right angle cable https://amzn.to/375yIF8
 5 pin MIDI jack https://amzn.to/371pkCe
