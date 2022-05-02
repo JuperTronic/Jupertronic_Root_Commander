@@ -123,9 +123,10 @@ void setup() {
 
   oledFill(&ssoled, 0, 1);
   oledDumpBuffer(&ssoled, NULL);
-  oledWriteString(&ssoled, 0, 0, 1, (char *)"   Jupertronic       ", FONT_NORMAL, 1, 1);
-  oledWriteString(&ssoled, 0, 20, 3, (char *)"Root", FONT_STRETCHED, 0, 1);
-  oledWriteString(&ssoled, 0, 0, 6, (char *)"Command", FONT_STRETCHED, 0, 1);
+  // Start up screen commented out just to save a bit of memory - works fine if you uncomment and looks cool on power up    
+  // oledWriteString(&ssoled, 0, 0, 1, (char *)"   Jupertronic       ", FONT_NORMAL, 1, 1);
+  // oledWriteString(&ssoled, 0, 20, 3, (char *)"Root", FONT_STRETCHED, 0, 1);
+  // oledWriteString(&ssoled, 0, 0, 6, (char *)"Command", FONT_STRETCHED, 0, 1);
 
   delay(2000);
   oledDumpBuffer(&ssoled, NULL);
